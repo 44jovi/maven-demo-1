@@ -4,7 +4,7 @@ public class ReverseFactorial {
 
 	public String getResult(int n) {
 
-		int num = n;
+		float num = n;
 
 		for (int i = 2; num > 1; i++) {
 			num = num / i;

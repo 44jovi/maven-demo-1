@@ -9,9 +9,13 @@ class ReverseFactorialTest {
 	private ReverseFactorial rf = new ReverseFactorial();
 
 	@Test
-	void testGetResult() {
+	void test120() {
 		assertEquals("5!", this.rf.getResult(120));
-//		fail("Not yet implemented");
+	}
+
+	@Test
+	void test150() {
+		assertEquals("NONE", this.rf.getResult(150));
 	}
 
 }
