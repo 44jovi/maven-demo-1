@@ -6,6 +6,7 @@ public class ReverseFactorial {
 
 		float num = n;
 
+		// Remember the condition in a for loop is a 'while' condition
 		for (int i = 2; num > 1; i++) {
 			num = num / i;
 
