@@ -10,7 +10,7 @@ class ReverseFactorialTest {
 
 	@Test
 	void testGetResult() {
-		assertEquals(3628800, this.rf.getResult(120));
+		assertEquals("5!", this.rf.getResult(120));
 //		fail("Not yet implemented");
 	}
 
